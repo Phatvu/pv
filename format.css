@@ -1,0 +1,67 @@
+body {
+	font-family: Arial, Sans-serif;
+	margin: 0;
+	padding: 0;
+}
+header, section {
+	padding: 20px;
+	margin: 20px;
+	background-color: #f4f4f4;
+}
+header {
+    background-image: url('images/Car Camping-2022h.jpg'); /* Path to your image */
+    background-size: cover; /* Make sure the image covers the entire header */
+    background-position: center; /* Center the image */
+    color: white; /* Make the text color white for better visibility */
+    text-align: center;
+    padding: 50px 0; /* Add some padding to create space inside the header */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+header h1 {
+	margin: 0;
+	padding: 10px 0;
+}
+section h2 {
+	color: #333;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.body-image-container {
+    width: 100%; /* Full width of the container */
+    padding-top: 66.67%; /* This makes the height 2/3 of the width (3:2 ratio) */
+    position: relative; /* Relative positioning for the image inside */
+    overflow: hidden; /* Hides the part of the image that exceeds the container */
+}
+
+.body-image-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: auto; /* Maintain image aspect ratio */
+    transform: translate(-50%, -50%); /* Center the image */
+}
+.box {
+	width: 45%;
+	margin: 10px;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+footer {
+	text-align: center;
+	padding: 20px;
+	background-color: #333;
+	color: white;
+}
